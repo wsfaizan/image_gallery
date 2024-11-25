@@ -1,0 +1,103 @@
+/* File: styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d2edef;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background: url('images/background.jpgg') center/cover no-repeat;
+    color: rgb(8, 8, 8);
+}
+
+.header h1 {
+    font-size: 2.5rem;
+}
+
+.header p {
+    margin: 10px 0;
+}
+
+.download-buttons button {
+    background-color: #662b3f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+.gallery-section, .tag-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.gallery-item {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    font-size: 0.9rem;
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tags button {
+    padding: 8px 15px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.tags button:hover {
+    background-color: #eee;
+}
+
+.tag-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.tag-gallery .gallery-item {
+    width: 200px;
+}
+
